@@ -1,0 +1,43 @@
+
+
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+
+.message-no {
+  position: absolute;
+  min-height: 12px;
+  min-width: 15px;
+  border-radius: 50%;
+  font-size: 10px;
+  background: blue;
+  color: white;
+  text-align: center;
+  top: 3px;
+  right: -1px;
+}
+
+
+.notification-no {
+  position: absolute;
+    min-height: 12px;
+    min-width: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+    background: blue;
+    color: white;
+    text-align: center;
+    top: 3px;
+    right: 0px;
+}
+
+.searchbox {
+  border-radius: 30px 30px 30px 30px;
+  cursor:pointer;
+
+}
